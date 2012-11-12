@@ -9,9 +9,12 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :remember_me
   attr_accessible :provider, :uid
+  attr_accessible :password, :first_name, :last_name
   
   has_many :stuff_schedule_subscriptions
   has_many :stuff_schedules, :through => :stuff_schedule_subscriptions
+  has_many :stuffs, :through => :stuff_schedules
+  has_many :stuff_days
   
   class << self
     def create_with_omniauth(auth)

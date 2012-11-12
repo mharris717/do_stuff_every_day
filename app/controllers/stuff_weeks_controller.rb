@@ -1,0 +1,2 @@
+class StuffWeeksController < ApplicationController
+end

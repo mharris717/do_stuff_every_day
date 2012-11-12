@@ -1,0 +1,12 @@
+%h2= @stuff.name
+%br
+- StuffPeriod.last_week(:user => current_user, :stuff => @stuff).all_days.each do |day|
+  = day.day
+  = day.amount
+  %br
+%br
+%br
+- StuffPeriod.current_week(:user => current_user, :stuff => @stuff).all_days.each do |day|
+  = day.day
+  = day.amount
+  %br
