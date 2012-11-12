@@ -1,0 +1,2 @@
+module StuffSchedulesHelper
+end

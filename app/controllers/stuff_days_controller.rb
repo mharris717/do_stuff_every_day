@@ -1,0 +1,2 @@
+class StuffDaysController < ApplicationController
+end

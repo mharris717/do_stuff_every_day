@@ -1,0 +1,2 @@
+class StuffScheduleSubscriptionsController < ApplicationController
+end

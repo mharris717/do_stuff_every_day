@@ -1,0 +1,51 @@
+--- !ruby/hash:OmniAuth::AuthHash
+provider: facebook
+uid: '632014521'
+info: !ruby/hash:OmniAuth::AuthHash::InfoHash
+  nickname: mharris717
+  email: mharris717@gmail.com
+  name: Mike Harris
+  first_name: Mike
+  last_name: Harris
+  image: http://graph.facebook.com/632014521/picture?type=square
+  urls: !ruby/hash:Hashie::Mash
+    Facebook: http://www.facebook.com/mharris717
+  verified: true
+credentials: !ruby/hash:Hashie::Mash
+  token: AAAEngbCgfWIBAJ7P8IytBh9t2vMMKzEMMjPq0w26pSTGfxZAPKZB0aiuVbSHVBtMZBPbPTXE7x1YnmxZAuav2haQh9rJRmgHkdUZAevhUmQZDZD
+  expires_at: 1357913217
+  expires: true
+extra: !ruby/hash:Hashie::Mash
+  raw_info: !ruby/hash:Hashie::Mash
+    id: '632014521'
+    name: Mike Harris
+    first_name: Mike
+    last_name: Harris
+    link: http://www.facebook.com/mharris717
+    username: mharris717
+    work:
+    - !ruby/hash:Hashie::Mash
+      employer: !ruby/hash:Hashie::Mash
+        id: '105290066176124'
+        name: Princeton Consultants
+      start_date: 2004-06
+      end_date: 2009-05
+    - !ruby/hash:Hashie::Mash
+      employer: !ruby/hash:Hashie::Mash
+        id: '112495025468038'
+        name: Princeton Consultants, Inc.
+    education:
+    - !ruby/hash:Hashie::Mash
+      school: !ruby/hash:Hashie::Mash
+        id: '109060492531446'
+        name: Bovine University
+      year: !ruby/hash:Hashie::Mash
+        id: '113125125403208'
+        name: '2004'
+      type: College
+    gender: male
+    email: mharris717@gmail.com
+    timezone: -5
+    locale: en_US
+    verified: true
+    updated_time: '2012-10-09T19:12:34+0000'

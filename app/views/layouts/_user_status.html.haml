@@ -1,0 +1,6 @@
+#user-status
+  - if current_user
+    Logged in as 
+    = current_user.email
+  - else
+    = link_to "Login with Facebook", user_omniauth_authorize_path(:facebook)

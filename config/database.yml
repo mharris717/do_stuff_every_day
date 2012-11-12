@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-  database: do_stuff_every_day_dev
+  database: do_stuff_every_day_dev2
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
